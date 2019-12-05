@@ -1,0 +1,49 @@
+.Header {
+  background: #AB2A19;
+}
+
+.Header .Header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+}
+
+.Header .Header-container .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Header .Header-container .logo img {
+  height: 50px;
+  margin-right: 25px;
+}
+
+.Header .Header-container .logo p {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.Header .Header-container .nav button {
+  margin-left: 20px;
+  border-style: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 1rem;
+  background: #ED6B5A;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Header.css.map */
